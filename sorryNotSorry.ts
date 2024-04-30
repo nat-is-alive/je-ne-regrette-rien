@@ -23,25 +23,25 @@ class javaSystem {
 const Console = new microsoftConsole();
 const System = new javaSystem();
 
-const boolVal: boolean = false;
+const boolVal: boolean = true;
 
 // valid C# code
 if (boolVal) {
-  Console.WriteLine(boolVal, "Hello from C#");
+  Console.WriteLine("Hello from C#");
 } else {
-  Console.WriteLine("False");
+  Console.WriteLine(boolVal);
 }
 
 // valid Java code
 if (boolVal) {
-  System.out.println(boolVal, "Hello from Java");
+  System.out.println("Hello from Java");
 } else {
-  System.out.println("False");
+  System.out.println(boolVal);
 }
 
 // valid JavaScript code
 if (boolVal) {
-  console.log(boolVal, "Hello from JavaScript");
+  console.log("Hello from JavaScript");
 } else {
-  console.log("False");
+  console.log(boolVal);
 }
