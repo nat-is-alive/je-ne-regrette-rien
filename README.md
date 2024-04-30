@@ -1,3 +1,5 @@
+Here it is... the project nobody wanted, that nobody asked for...
+
 A project to retrofit Console.WriteLine from C# and System.out.println from Java to TypeScript.
 
 Why? To demonstrate the syntactic similarities of the languages, using the if statement control structure as an example.
