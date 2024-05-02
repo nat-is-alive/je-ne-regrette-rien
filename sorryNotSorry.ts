@@ -32,6 +32,12 @@ if (boolVal) {
   Console.WriteLine(boolVal);
 }
 
+switch ("word") {
+  case "word":
+    Console.WriteLine("Hello from C#");
+    break;
+}
+
 // valid Java code
 if (boolVal) {
   System.out.println("Hello from Java");
@@ -39,9 +45,21 @@ if (boolVal) {
   System.out.println(boolVal);
 }
 
+switch ("word") {
+  case "word":
+    System.out.println("Hello from Java");
+    break;
+}
+
 // valid JavaScript code
 if (boolVal) {
   console.log("Hello from JavaScript");
 } else {
   console.log(boolVal);
+}
+
+switch ("word") {
+  case "word":
+    console.log("Hello from C#");
+    break;
 }
