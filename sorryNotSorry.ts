@@ -60,6 +60,6 @@ if (boolVal) {
 
 switch ("word") {
   case "word":
-    console.log("Hello from C#");
+    console.log("Hello from JavaScript");
     break;
 }
