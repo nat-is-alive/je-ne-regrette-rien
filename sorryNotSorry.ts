@@ -23,43 +23,41 @@ class javaSystem {
 const Console = new microsoftConsole();
 const System = new javaSystem();
 
-const boolVal: boolean = true;
-
 // valid C# code
-if (boolVal) {
-  Console.WriteLine("Hello from C#");
+if (2 != 2) {
+  Console.WriteLine("You are a Mathematician");
 } else {
-  Console.WriteLine(boolVal);
+  Console.WriteLine("You are an Engineer");
 }
 
 switch ("word") {
   case "word":
-    Console.WriteLine("Hello from C#");
+    Console.WriteLine("Hello World, from C#");
     break;
 }
 
 // valid Java code
-if (boolVal) {
-  System.out.println("Hello from Java");
+if (2 != 2) {
+  System.out.println("You are a Mathematician");
 } else {
-  System.out.println(boolVal);
+  System.out.println("You are an Engineer");
 }
 
 switch ("word") {
   case "word":
-    System.out.println("Hello from Java");
+    System.out.println("Hello World, from Java");
     break;
 }
 
 // valid JavaScript code
-if (boolVal) {
-  console.log("Hello from JavaScript");
+if (2 != 2) {
+  console.log("You are a Mathematician");
 } else {
-  console.log(boolVal);
+  console.log("You are an Engineer");
 }
 
 switch ("word") {
   case "word":
-    console.log("Hello from JavaScript");
+    console.log("Hello World, from JavaScript");
     break;
 }
